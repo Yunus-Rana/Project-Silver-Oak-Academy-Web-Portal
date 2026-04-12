@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/admission.css">
+    <title>Admission</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container container">
+            <div class="logo">
+                <img src="/schoollogo.png" alt="" />
+                <h2>Silver Oak Academy</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/admission.html">Admissions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero-section">
+        <h2>Admission Form</h2>
+
+        <form action="">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first-name">Enter first name:</label>
+                    <input type="text" id="first-name" placeholder="e.g Ali">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Enter last name:</label>
+                    <input type="text" id="last-name" placeholder="e.g Khan">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Enter date of birth:</label>
+                <input type="date" id="dob">
+            </div>
+
+            <div class="form-group gender-section">
+                <p>Select gender:</p>
+                <div class="radio-options">
+                    <input type="radio" id="male" name="xyz"><label for="male">Male</label>
+                    <input type="radio" id="female" name="xyz"><label for="female">Female</label>
+                    <input type="radio" id="others" name="xyz"><label for="others">Others</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Enter email:</label>
+                <input type="email" id="email" placeholder="e.g abc@xyz.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone-number">Enter phone number:</label>
+                <input type="tel" id="phone-number" placeholder="e.g 0301234567">
+            </div>
+
+            <div class="form-group checkbox-group"></div>
+            <input type="checkbox" id="transportation">
+            <label for="transportation">Do you need transportation?</label>
+
+            <div class="form-group">
+                <select name="program" id="program">
+                    <option value="">Choose the program</option>
+                    <option value="Primary">Primary Section</option>
+                    <option value="Secondary">Secondary Section</option>
+                    <option value="Higher">Higher Section</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Application!</button>
+        </form>
+    </section>
+</body>
+<!-- footer -->
+<footer>
+    <div class="container footer-container">
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Address: 123 Silver Oak Lane, Sector 7-G, Green Valley, PK 54000.</p>
+            <p>Email: info@silveroakacademy.edu.pk</p>
+            <p>Phone: +92 42 3555 0198</p>
+        </div>
+        <div class="social">
+            <h3>Follow Us</h3>
+            <a href="/">Facebook</a>
+            <a href="/">YouTube</a>
+            <a href="/">Instagram</a>
+        </div>
+    </div>
+</footer>
+
+</html>

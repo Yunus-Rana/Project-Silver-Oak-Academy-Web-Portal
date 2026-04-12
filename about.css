@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display";
+}
+
+:root {
+    --primcolor: #fbf7f7;
+    --seccolor: #2d2276;
+}
+
+header {
+    background-color: var(--seccolor);
+    color: var(--primcolor);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1em 1.5em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo h2 {
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+.logo img {
+    width: 4em;
+
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primcolor);
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 5rem;
+}
+
+nav a:hover {
+    transform: scale(105%);
+    opacity: 0.8;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 10em;
+}
+
+ul li {
+    list-style: none;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin-bottom: 2rem;
+}
+
+.principal .message {
+    padding: 3rem;
+}
+
+.principal h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: var(--seccolor);
+    font-weight: bolder;
+}
+
+.principal img {
+    border-radius: 1rem;
+    width: 18rem;
+}
+
+.department {
+    background-color: var(--primcolor);
+    padding: 4rem 2rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.department h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--seccolor);
+}
+
+.dept-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.department .deptcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    flex: 1;
+    box-shadow: 0 4px 8px var(--seccolor);
+    border-radius: 1rem;
+
+}
+
+.deptcard h3 {
+    font-weight: bolder;
+    color: var(--seccolor);
+    font-size: 1.5rem;
+    margin-bottom: 1rem
+}
+
+.deptcard button {
+    margin: 3rem;
+    background-color: var(--seccolor);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--primcolor);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.deptcard button:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+    color: white;
+
+}
+
+.facilities h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    color: var(--seccolor);
+}
+
+.facilities {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.facilities-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 10rem;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.facilities-card {
+    background-color: var(--primcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px var(--seccolor);
+
+    color: var(--seccolor);
+    font-weight: bolder;
+}
+
+.facilities-card h3 {
+    font-size: 1.5rem;
+}
+
+.teachers {
+    padding: 4rem 2rem;
+    background-color: var(--primcolor);
+    text-align: center;
+}
+
+.teachers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    color: var(--seccolor);
+}
+
+.teacher-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 15rem;
+    gap: 3rem;
+}
+
+.teacher-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px var(--seccolor);
+    text-align: left;
+    gap: 1rem;
+
+}
+
+.teacherimg img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.teachertxt h4 {
+    color: var(--seccolor);
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;
+}
+
+footer {
+    background-color: var(--seccolor);
+    color: var(--primcolor);
+    padding: 1em 0em;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    margin: 0.5em;
+}
+
+.social {
+    margin: 0.5em;
+}
+
+.social a {
+    display: block;
+    text-decoration: none;
+    color: var(--primcolor);
+
+}
+
+.social a:hover {
+    opacity: 0.8;
+}

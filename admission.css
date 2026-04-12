@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display";
+}
+
+:root {
+    --primcolor: #fbf7f7;
+    --seccolor: #2d2276;
+}
+
+
+
+header {
+    background-color: var(--seccolor);
+    color: var(--primcolor);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1em 1.5em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo h2 {
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+.logo img {
+    width: 4em;
+
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primcolor);
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 5rem;
+}
+
+nav a:hover {
+    transform: scale(105%);
+    opacity: 0.8;
+    color: white;
+}
+
+
+ul {
+    display: flex;
+    gap: 10em;
+}
+
+ul li {
+    list-style: none;
+}
+
+input,
+select,
+textarea,
+button,
+p {
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+
+.hero-section {
+    background-color: var(--primcolor);
+    padding: 6rem 2rem;
+    text-align: left;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    color: var(--seccolor);
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+
+.frm {
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px var(--seccolor);
+    text-align: left;
+}
+
+
+.form-row {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.gender-section {
+    color: var(--seccolor);
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+label {
+    font-weight: bold;
+    color: var(--seccolor);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    padding: 0.8rem 1rem;
+    border: 2px solid #eee;
+    border-radius: 0.5rem;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    border-color: var(--seccolor);
+    background-color: white;
+    box-shadow: 0 0 8px var(--seccolor);
+}
+
+
+.radio-options {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.checkbox-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+
+}
+
+
+.submit-btn {
+    width: 50%;
+    background-color: var(--seccolor);
+    color: var(--primcolor);
+    padding: 1.2rem;
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    margin-top: 2rem;
+    margin-left: 25%;
+}
+
+.submit-btn:hover {
+    transform: scale(1.01);
+    opacity: 0.9;
+}
+
+footer {
+    background-color: var(--seccolor);
+    color: var(--primcolor);
+    padding: 1em 0em;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    margin: 0.5em;
+}
+
+.social {
+    margin: 0.5em;
+}
+
+.social a {
+    display: block;
+    text-decoration: none;
+    color: var(--primcolor);
+
+}
+
+.social a:hover {
+    opacity: 0.8;
+}
