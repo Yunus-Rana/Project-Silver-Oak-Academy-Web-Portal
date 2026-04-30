@@ -27,3 +27,6 @@ The project is structured to maintain a distinct separation of concerns, with sp
 1. Clone the repository.
 2. Open `index.html` in any modern web browser.
 3. Navigate through the header links to explore the full site architecture.
+
+## Live Demo
+[View Site](https://yunus-rana.github.io/Project-Silver-Oak-Academy-Web-Portal/)
